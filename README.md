@@ -1,11 +1,38 @@
-# Sample Snack app
+# Coffee Shop App ☕  
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+A React Native application for coffee enthusiasts to browse, order, and manage coffee purchases seamlessly. The app offers features like a shopping cart, checkout process, and customizable coffee bean selections.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+---
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## **Features**  
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+- **Browse Coffee Beans**: View available coffee beans with detailed information (roast level, grind option, region, flavor profile, and more).  
+- **Add to Cart**: Add your favorite beans to the cart and view order details.  
+- **Checkout**:  Add customer details, shipping address and payment method
+- **Wishlist**: Pin your favorite beans in your list for easy access
+- **Recommendation**: Show suggested coffee beans base on your preference 
+- **Responsive UI**: Clean and user-friendly design optimized for mobile devices.  
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+---
+
+## **Screens**  
+
+1. **Home Screen**: Landing page to show welcomea and recommendation.
+2. **Explore Screen**: Displays all items in the app.
+3. **Details Screen**: Displays detail of the coffee and ability to add to cart.
+4. **Login Screen / User Screen**: Show User data including preference.
+5. **Register Screen**: Registers user to the backend. select your preference here.
+6. **Wishlist Screen**: Show your favorite beans.
+7. **FAQ Screen**: Show detail about coffee option. 
+8. **Cart Screen**: Displays the items in the cart and their details.  
+9. **Checkout Screen**: Handles the checkout process, including customer information, address input, and payment selection.  
+
+---
+
+## **Tech Stack**  
+
+- **Frontend**: React Native  
+- **Backend**: Express
+- **Cart**: Redux  
+- **Navigation**: React Navigation  
+
